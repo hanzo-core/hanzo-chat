@@ -12,9 +12,8 @@
 # limitations under the License.
 
 # [START app_yaml]
-application: hanzo-chat
 runtime: nodejs
-vm: true
+env: flex
 
 # [START network]
 # This ensures clients will be able to connect via websockets to any instance of
